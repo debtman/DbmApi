@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbmApi", "DbmApi\DbmApi.csproj", "{1A015735-D749-4B55-922E-167EE39A0E5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbmApiClient", "DbmApiClient\DbmApiClient.csproj", "{220595CB-B14F-4018-8130-BCB5D4D5E570}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DbmShared", "DbmShared\DbmShared.shproj", "{E6145D4A-A280-4F2A-99D4-FE09E5242751}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbmApiClient.Desktop", "DbmApiClient.Desktop\DbmApiClient.Desktop.csproj", "{9DB48488-EB5D-4F54-99DE-53364901DEFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbmClientAvl", "DbmClientAvl\DbmClientAvl.csproj", "{6F174A01-DCE2-4AFE-BADE-06888971DE7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbm4", "dbm4\dbm4.csproj", "{40B4FDA1-B72F-4C00-9566-47810614B696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,19 +21,23 @@ Global
 		{1A015735-D749-4B55-922E-167EE39A0E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A015735-D749-4B55-922E-167EE39A0E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A015735-D749-4B55-922E-167EE39A0E5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{220595CB-B14F-4018-8130-BCB5D4D5E570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{220595CB-B14F-4018-8130-BCB5D4D5E570}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{220595CB-B14F-4018-8130-BCB5D4D5E570}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{220595CB-B14F-4018-8130-BCB5D4D5E570}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DB48488-EB5D-4F54-99DE-53364901DEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DB48488-EB5D-4F54-99DE-53364901DEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DB48488-EB5D-4F54-99DE-53364901DEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DB48488-EB5D-4F54-99DE-53364901DEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F174A01-DCE2-4AFE-BADE-06888971DE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F174A01-DCE2-4AFE-BADE-06888971DE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F174A01-DCE2-4AFE-BADE-06888971DE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F174A01-DCE2-4AFE-BADE-06888971DE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B4FDA1-B72F-4C00-9566-47810614B696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B4FDA1-B72F-4C00-9566-47810614B696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B4FDA1-B72F-4C00-9566-47810614B696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B4FDA1-B72F-4C00-9566-47810614B696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5770DF5-9796-4435-B5B7-373D7BA6891B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DbmShared\DbmShared.projitems*{1a015735-d749-4b55-922e-167ee39a0e5c}*SharedItemsImports = 5
+		DbmShared\DbmShared.projitems*{e6145d4a-a280-4f2a-99d4-fe09e5242751}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

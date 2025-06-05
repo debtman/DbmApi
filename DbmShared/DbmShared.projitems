@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e6145d4a-a280-4f2a-99d4-fe09e5242751</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DbmShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DbmClasses\ClassCredInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbmClasses\ClassDebtInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DbmClasses\ClassDebtor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dicts\Client.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dicts\Clients.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dicts\EncryptionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dicts\MetaDict.cs" />
+  </ItemGroup>
+</Project>
